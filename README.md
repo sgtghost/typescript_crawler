@@ -9,7 +9,7 @@ npm i puppeteer
 ### Execute the script
 npx ts-node MyFirstTSCrawler.ts
 
-## Results
+### Results
 The results will be printed out in the console.
 
 It should be something like this:
