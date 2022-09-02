@@ -1,5 +1,8 @@
 # typescript_crawler
-A simple CLI script to retrieve and present the top 5 priced DeFi coins listed on the Binance exchange
+
+A simple CLI script to retrieve and present the top 5 priced DeFi coins listed on the Binance exchange.
+
+This crawler is written in pure Typescript (https://www.typescriptlang.org/), using the Puppeteer (https://github.com/puppeteer/puppeteer) tooling to perform the web scraping.
 
 ## Deployment
 ### Install TypeScript & Puppeteer
