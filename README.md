@@ -4,4 +4,5 @@ A simple CLI script to retrieve and present the top 5 priced DeFi coins listed o
 ## Deployment
 ### Install TypeScript & Puppeteer
 npm install typescript --save-dev
+
 npm i puppeteer
