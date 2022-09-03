@@ -17,7 +17,7 @@ async function handleTimeout(page: any, url: string) {
 (
     async() => {
         // Setup up the browser & page
-        const browser = await puppeteer.launch({headless: true});
+        const browser = await puppeteer.launch({headless: false});
         const page = await browser.newPage();
         // Make sure the critical elements will be loaded before we start any action
         // The div that holds all cryptos infos
