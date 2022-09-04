@@ -16,6 +16,7 @@ npm install typescript --save-dev
 npm i puppeteer
 ### For linux
 #### Install TypeScript & Puppeteer
+##### Important: You need to install latest npm & node.js manually because Ubuntu package update sucks.
 
 ```
 # Using Ubuntu
@@ -26,10 +27,9 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 apt-get install -y nodejs
 ```
 
-##### Important: You need to install latest npm & node.js manually because Ubuntu package update sucks.
 References: https://github.com/nodesource/distributions/blob/master/README.md
 
-Please refer to the Installation instructions section.
+If you have any problem please refer to the Installation instructions section.
 
 
 
