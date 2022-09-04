@@ -12,13 +12,13 @@ You can check the notes in code file for more details.
 #### Install Node.js & npm
 Please download and install the latest version of Node.js on https://nodejs.org/en/
 #### Install TypeScript & Puppeteer
+```
 npm install typescript --save-dev
-
 npm i puppeteer
-
+```
 ### For linux
 #### Install Node.js & npm
-##### Important: You need to install latest npm & node.js manually because Ubuntu package update sucks.
+##### Important: You need to install latest npm & node.js manually because Linux package update sucks.
 
 ```
 # Using Ubuntu
@@ -29,27 +29,34 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 apt-get install -y nodejs
 ```
 
-References: https://github.com/nodesource/distributions/blob/master/README.md
+References: 
+https://stackoverflow.com/questions/44095985/why-only-outdated-version-of-npm-is-available-on-debian-ubuntu
 
-If you have any problem please refer to the Installation instructions section.
+https://github.com/nodesource/distributions/blob/master/README.md
 
 #### Install TypeScript & Puppeteer
+```
 npm install typescript --save-dev
-
 npm install ts-node
-
 npm i puppeteer
-
+```
 ## Execution & Result
 
 ### Execution
-npx ts-node MyFirstTSCrawler.ts
+#### Additional setup of linux
 
+For some reason installing puppeteer will not automatically install chromium on linux. You have to install it BY YOURSELF.
+sudo apt-get install chromium-browser
+
+Reference: https://stackoverflow.com/questions/59979188/error-failed-to-launch-the-browser-process-puppeteer
+```
+npx ts-node MyFirstTSCrawler.ts
+```
 ### Result
 The results will be printed out in the console.
 
 And it should be something like this:
-
+```
 -------------------
 
  TOP 5 DEFI PRICES
@@ -63,3 +70,4 @@ And it should be something like this:
 5. AUTO - A$421.74
 
 -------------------
+```
