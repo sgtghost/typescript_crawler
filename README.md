@@ -7,14 +7,40 @@ This crawler is written in pure Typescript (https://www.typescriptlang.org/), us
 You can check the notes in code file for more details.
 
 ## Deployment
-### Install TypeScript & Puppeteer
+
+### For windows
+
+#### Install TypeScript & Puppeteer
 npm install typescript --save-dev
 
 npm i puppeteer
-### Execute the script
+### For linux
+#### Install TypeScript & Puppeteer
+
+'# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+apt-get install -y nodejs'
+
+##### Important: You need to install latest npm & node.js manually because Ubuntu package update sucks.
+References: https://github.com/nodesource/distributions/blob/master/README.md
+
+Please refer to the Installation instructions section.
+
+
+
+
+
+
+## Execution & Result
+
+### Execution
 npx ts-node MyFirstTSCrawler.ts
 
-## Results
+### Result
 The results will be printed out in the console.
 
 And it should be something like this:
