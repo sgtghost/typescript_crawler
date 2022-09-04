@@ -17,17 +17,14 @@ npm i puppeteer
 ### For linux
 #### Install TypeScript & Puppeteer
 
-'# Using Ubuntu'
-
-'curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -'
-
-'sudo apt-get install -y nodejs'
-
-'# Using Debian, as root'
-
-'curl -fsSL https://deb.nodesource.com/setup_18.x | bash -'
-
-'apt-get install -y nodejs'
+```
+# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+# Using Debian, as root
+curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+apt-get install -y nodejs
+```
 
 ##### Important: You need to install latest npm & node.js manually because Ubuntu package update sucks.
 References: https://github.com/nodesource/distributions/blob/master/README.md
