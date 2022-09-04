@@ -46,9 +46,17 @@ npm i puppeteer
 #### Additional setup of linux
 
 For some reason installing puppeteer will not automatically install chromium on linux. You have to install it BY YOURSELF.
+```
 sudo apt-get install chromium-browser
-
+```
+And then you need to configure the parameter when launching puppeteer.
+```
+const browser = await puppeteer.launch({
+  executablePath: '/usr/bin/chromium-browser'
+})
+```
 Reference: https://stackoverflow.com/questions/59979188/error-failed-to-launch-the-browser-process-puppeteer
+You can also check the notes in the code.
 ```
 npx ts-node MyFirstTSCrawler.ts
 ```
