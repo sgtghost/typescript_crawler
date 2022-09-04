@@ -9,13 +9,15 @@ You can check the notes in code file for more details.
 ## Deployment
 
 ### For windows
-
+#### Install Node.js & npm
+Please download and install the latest version of Node.js on https://nodejs.org/en/
 #### Install TypeScript & Puppeteer
 npm install typescript --save-dev
 
 npm i puppeteer
+
 ### For linux
-#### Install TypeScript & Puppeteer
+#### Install Node.js & npm
 ##### Important: You need to install latest npm & node.js manually because Ubuntu package update sucks.
 
 ```
@@ -31,10 +33,12 @@ References: https://github.com/nodesource/distributions/blob/master/README.md
 
 If you have any problem please refer to the Installation instructions section.
 
+#### Install TypeScript & Puppeteer
+npm install typescript --save-dev
 
+npm install ts-node
 
-
-
+npm i puppeteer
 
 ## Execution & Result
 
