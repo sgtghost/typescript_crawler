@@ -30,6 +30,7 @@ apt-get install -y nodejs
 ```
 
 References: 
+
 https://stackoverflow.com/questions/44095985/why-only-outdated-version-of-npm-is-available-on-debian-ubuntu
 
 https://github.com/nodesource/distributions/blob/master/README.md
@@ -45,7 +46,9 @@ npm i puppeteer
 ### Execution
 #### Additional setup of linux
 
-For some reason installing puppeteer will not automatically install chromium on linux. You have to install it BY YOURSELF.
+For some reason installing puppeteer will not automatically install chromium on linux. 
+
+You have to install it BY YOURSELF.
 ```
 sudo apt-get install chromium-browser
 ```
@@ -55,7 +58,10 @@ const browser = await puppeteer.launch({
   executablePath: '/usr/bin/chromium-browser'
 })
 ```
-Reference: https://stackoverflow.com/questions/59979188/error-failed-to-launch-the-browser-process-puppeteer
+Reference: 
+
+https://stackoverflow.com/questions/59979188/error-failed-to-launch-the-browser-process-puppeteer
+
 You can also check the notes in the code.
 ```
 npx ts-node MyFirstTSCrawler.ts
