@@ -51,7 +51,7 @@ You have to install it BY YOURSELF.
 ```
 sudo apt-get install chromium-browser
 ```
-And then you need to configure the parameter when launching puppeteer.
+And then you need to configure the parameter when launching puppeteer instance.
 ```
 const browser = await puppeteer.launch({
   executablePath: '/usr/bin/chromium-browser'
