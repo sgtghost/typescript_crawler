@@ -18,7 +18,7 @@ npm i puppeteer
 ```
 ### For linux
 #### Install Node.js & npm
-##### Important: You need to install latest npm & node.js manually because Linux package update sucks.
+##### Important: You need to download latest npm & node.js manually first because Linux package update sucks.
 
 ```
 # Using Ubuntu
