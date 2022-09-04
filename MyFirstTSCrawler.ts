@@ -17,6 +17,7 @@ async function handleTimeout(page: any, url: string) {
 (
     async() => {
         // Setup up the browser & page
+
         // const browser = await puppeteer.launch({headless: false, executablePath: '/usr/bin/chromium-browser'}); For linux
         // *npm install puppeteer* seems to fail install chromium on Linux
         // Reference for linux setup: https://stackoverflow.com/questions/59979188/error-failed-to-launch-the-browser-process-puppeteer
