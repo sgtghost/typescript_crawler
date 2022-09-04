@@ -88,4 +88,4 @@ And it should be something like this:
 -------------------
 ```
 
-#The script has been tested on both Windows & Linux (Ubuntu, through virtual machine instance deployed on Google Cloud platform)
+# The script has been tested on both Windows & Linux (Ubuntu, through virtual machine instance deployed on Google Cloud platform)
