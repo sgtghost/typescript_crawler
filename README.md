@@ -42,8 +42,7 @@ npm install ts-node
 npm i puppeteer
 ```
 ## Execution & Result
-
-### Execution
+Before we start, if you are using linux...
 #### Additional setup of linux
 
 For some reason installing puppeteer will not automatically install chromium on linux. 
@@ -63,6 +62,9 @@ Reference:
 https://stackoverflow.com/questions/59979188/error-failed-to-launch-the-browser-process-puppeteer
 
 You can also check the notes in the code.
+
+### Execution
+
 ```
 npx ts-node MyFirstTSCrawler.ts
 ```
